@@ -18,6 +18,7 @@ st.title('Bank Account Prediction Model')
 st.write('This predicts if a person has a bank account or not ')
 # User inputs
 year = st.number_input('Year', min_value=2000, max_value=2022, step=1)
+st.info("if the predicted value is zero the person has no account if predicted value is 1 the person has an account")
 location_type = st.radio('Location Type', ['Rural', 'Urban'])
 cellphone_access = st.radio('Cellphone Access', ['Yes', 'No'])
 household_size = st.number_input('Household Size', min_value=1, max_value=20)
