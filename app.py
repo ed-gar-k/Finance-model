@@ -15,7 +15,7 @@ country_options = ['Kenya', 'Rwanda', 'Tanzania', 'Uganda']
 
 # Streamlit interface
 st.title('Bank Account Prediction Model')
-st.write('This predicts if a person has a bank or not ')
+st.write('This predicts if a person has a bank account or not ')
 # User inputs
 year = st.number_input('Year', min_value=2000, max_value=2022, step=1)
 location_type = st.radio('Location Type', ['Rural', 'Urban'])
